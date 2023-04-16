@@ -1,2 +1,2 @@
-# algorithms
-Python Algorithm Library.
+# 简介
+一个自建的 Python 算法库，封装了各种高效的算法与数据结构

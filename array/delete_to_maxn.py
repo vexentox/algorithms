@@ -1,5 +1,5 @@
 import collections
-def delete_nth(array, n):
+def delete_to_maxn(array, n):
     """
     function：给定一个数组和一个数字 n ，创建一个新数组，其中每个数字至多 n 次而不重新排列。
     array : 数组状
@@ -16,4 +16,4 @@ def delete_nth(array, n):
     return array[:j]
 
 a = [1, 2, 3, 1, 2, 3, 1, 2, 3]
-print(delete_nth(a, 2))
+print(delete_to_maxn(a, 2))
